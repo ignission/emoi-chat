@@ -1,6 +1,6 @@
 package formatters
 
-import domain.models.{Position, User, UserCommand, UserName}
+import jam.domain.models.{Position, User, UserCommand, UserName}
 import play.api.libs.functional.syntax._
 import play.api.libs.json._
 

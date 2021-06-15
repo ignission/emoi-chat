@@ -1,4 +1,4 @@
-package domain.models
+package jam.domain.models
 
 case class Room(name: RoomName, users: Set[User])
 

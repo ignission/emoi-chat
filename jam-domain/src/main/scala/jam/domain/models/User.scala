@@ -1,4 +1,4 @@
-package domain.models
+package jam.domain.models
 
 case class User(name: UserName, position: Position)
 

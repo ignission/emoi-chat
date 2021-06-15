@@ -2,11 +2,10 @@ package infrastructure
 
 import java.util.concurrent.atomic.AtomicReference
 import javax.inject.{Inject, Singleton}
-
 import akka.actor.ActorSystem
 import akka.stream.scaladsl.{BroadcastHub, Flow, Keep, MergeHub, Sink}
 import akka.stream.{KillSwitches, Materializer, UniqueKillSwitch}
-import domain.models.{Room, RoomName, UserCommand, UserName}
+import jam.domain.models.{Room, RoomName, UserCommand, UserName}
 import services.{RoomInfo, RoomRepository}
 
 import scala.collection.mutable

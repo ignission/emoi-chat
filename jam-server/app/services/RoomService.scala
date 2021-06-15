@@ -1,8 +1,7 @@
 package services
 
 import javax.inject.{Inject, Singleton}
-
-import domain.models.{RoomName, UserName}
+import jam.domain.models.{RoomName, UserName}
 
 @Singleton
 class RoomService @Inject() (roomRepository: RoomRepository) {

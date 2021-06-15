@@ -1,4 +1,4 @@
-package domain.models
+package jam.domain.models
 
 sealed trait UserCommand
 
